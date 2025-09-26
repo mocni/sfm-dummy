@@ -1,0 +1,40 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "@smart-fleet-management/tsconfig/tsconfig.base.json",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "useDefineForClassFields": false,
+    "lib": ["ES2022", "dom"],
+    "paths": {
+      "@environment/*": ["./src/environments"],
+      "@shared/*": ["./app/shared"],
+      "@api/*": ["../libs/api-client-smart-fleet-management/api/*"],
+      "@models/*": ["../libs/api-client-smart-fleet-management/model/*"]
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true,
+    "disableTypeScriptVersionCheck": true
+  }
+}

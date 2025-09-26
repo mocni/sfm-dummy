@@ -1,0 +1,7 @@
+export enum EmployeeType {
+  ACCOUNTANT = "ACCOUNTANT",
+  DISPATCHER = "DISPATCHER",
+  DRIVER = "DRIVER",
+  MECHANIC = "MECHANIC",
+  OWNER = "OWNER",
+}

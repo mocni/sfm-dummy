@@ -1,0 +1,28 @@
+import { TrailerType } from "../enums";
+
+export const trailerTypesArray = [
+  { id: TrailerType.BEVERAGES, name: "BEVERAGES" },
+  { id: TrailerType.BOX, name: "BOX" },
+  { id: TrailerType.CAR_CARRIER, name: "CAR_CARRIER" },
+  { id: TrailerType.CATTLE, name: "CATTLE" },
+  { id: TrailerType.CHASSIS, name: "CHASSIS" },
+  { id: TrailerType.DEEP_FREEZE, name: "DEEP_FREEZE" },
+  { id: TrailerType.MILK_TANK, name: "MILK_TANK" },
+  { id: TrailerType.LONG_MATERIAL, name: "LONG_MATERIAL" },
+  { id: TrailerType.LOW_LOADER, name: "LOW_LOADER" },
+  { id: TrailerType.PLATFORM, name: "PLATFORM" },
+  { id: TrailerType.REFRIGERATOR, name: "REFRIGERATOR" },
+  { id: TrailerType.SILO, name: "SILO" },
+  { id: TrailerType.STAKE_BODY, name: "STAKE_BODY" },
+  { id: TrailerType.STAKE_BODY_TARPAULIN, name: "STAKE_BODY_TARPAULIN" },
+  { id: TrailerType.ROLL_OFF_TIPPER, name: "ROLL_OFF_TIPPER" },
+  { id: TrailerType.TANK_BODIES, name: "TANK_BODIES" },
+  { id: TrailerType.TIMBER_CARRIER, name: "TIMBER_CARRIER" },
+  { id: TrailerType.TIPPER, name: "TIPPER" },
+  { id: TrailerType.WALKING_FLOOR, name: "WALKING_FLOOR" },
+  { id: TrailerType.CONCRETE_PUMP, name: "CONCRETE_PUMP" },
+  { id: TrailerType.MOUNTED_CRANE, name: "MOUNTED_CRANE" },
+  { id: TrailerType.GLASS_TRANSPORT, name: "GLASS_TRANSPORT" },
+  { id: TrailerType.BOAT_TRAILER, name: "BOAT_TRAILER" },
+  { id: TrailerType.OTHER, name: "OTHER" },
+];

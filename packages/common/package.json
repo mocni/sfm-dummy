@@ -1,0 +1,28 @@
+{
+    "name": "@smart-fleet-management/common",
+    "scripts": {
+        "build:package:development": "tsup-node --env.NODE_ENV development",
+        "build:package:development:watch": "tsup-node --env.NODE_ENV development --watch",
+        "clean": "pnpm clean:build & pnpm clean:node_modules & pnpm clean:turbo-cache",
+        "clean:build": "rm -rf dist",
+        "clean:node_modules": "rm -rf node_modules",
+        "clean:turbo-cache": "rm -rf .turbo",
+        "dev": "pnpm build:package:development:watch",
+        "format": "prettier --write . --ignore-path ../../.prettierignore",
+        "lint": "eslint \"**/*.ts*\"",
+        "lint:fix": "eslint \"**/*.ts*\" --fix"
+    },
+    "devDependencies": {
+        "@smart-fleet-management/eslint-config": "workspace:*",
+        "@smart-fleet-management/tsconfig": "workspace:*",
+        "tsup": "8.1.0",
+        "typescript": "5.1.3",
+        "zod": "3.24.4"
+    },
+    "files": [
+        "/dist"
+    ],
+    "main": "dist/index",
+    "private": true,
+    "types": "dist/index"
+}

@@ -1,0 +1,6 @@
+.github
+.editorconfig
+/node_modules
+.gitignore
+.git
+.vscode

@@ -1,0 +1,122 @@
+.invoice-status-container {
+  display: inline-block;
+}
+
+.invoice-status-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  cursor: default;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  &--clickable {
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  &__icon {
+    margin-right: 4px;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+
+  &__text {
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  &__dropdown-icon {
+    margin-left: 4px;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+
+  // Size variants
+  &--small {
+    padding: 4px 8px;
+    min-height: 24px;
+
+    .invoice-status-badge__icon {
+      font-size: 14px;
+      width: 14px;
+      height: 14px;
+    }
+
+    .invoice-status-badge__text {
+      font-size: 10px;
+    }
+  }
+
+  &--medium {
+    padding: 6px 12px;
+    min-height: 28px;
+
+    .invoice-status-badge__icon {
+      font-size: 16px;
+      width: 16px;
+      height: 16px;
+    }
+
+    .invoice-status-badge__text {
+      font-size: 12px;
+    }
+  }
+
+  &--large {
+    padding: 8px 16px;
+    min-height: 32px;
+
+    .invoice-status-badge__icon {
+      font-size: 18px;
+      width: 18px;
+      height: 18px;
+    }
+
+    .invoice-status-badge__text {
+      font-size: 14px;
+    }
+  }
+}
+
+// Status menu styles
+.status-menu {
+  .mat-mdc-menu-content {
+    padding: 8px 0;
+  }
+}
+
+.status-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  min-width: 120px;
+
+  &__badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+}

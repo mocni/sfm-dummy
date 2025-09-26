@@ -1,0 +1,819 @@
+{
+  "login": {
+    "title": "Prijavite se",
+    "remberMe": "Zapamti me",
+    "forgotPassword": "Zaboravili ste lozinku?",
+    "signIn": "Prijava",
+    "username": "Korisničko ime",
+    "password": "Lozinka",
+    "invalidUsername": "Korisničko ime je obavezno",
+    "invalidPassword": "Lozinka je obavezna",
+    "loginError": "Došlo je greške"
+  },
+  "sidebar": {
+    "clients": "Klijenti",
+    "trailers": "Prikolice",
+    "trucks": "Kamioni",
+    "dispatch": "Dodjela vozila",
+    "employees": "Zaposlenici",
+    "load": "Utovar",
+    "reports": "Izvještaj",
+    "services": "Usluge",
+    "invoices": "Računi",
+    "dispatchBoard": "Raspored rada",
+    "companySettings": "Tvrtka",
+    "userSettings": "Moj profil",
+    "signOut": "Odjava"
+  },
+  "COUNTRIES": {
+    "ALBANIA": "Albanija",
+    "AUSTRIA": "Austrija",
+    "BELGIUM": "Belgija",
+    "BOSNIA_AND_HERZEGOVINA": "Bosna i Hercegovina",
+    "BULGARIA": "Bugarska",
+    "CROATIA": "Hrvatska",
+    "CZECH_REPUBLIC": "Češka",
+    "DENMARK": "Danska",
+    "FINLAND": "Finska",
+    "FRANCE": "Francuska",
+    "GERMANY": "Njemačka",
+    "GREECE": "Grčka",
+    "HUNGARY": "Mađarska",
+    "IRELAND": "Irska",
+    "ITALY": "Italija",
+    "LATVIA": "Latvija",
+    "LITHUANIA": "Litva",
+    "NETHERLANDS": "Nizozemska",
+    "NORTH_MACEDONIA": "Sjeverna Makedonija",
+    "NORWAY": "Norveška",
+    "POLAND": "Poljska",
+    "ROMANIA": "Rumunjska",
+    "RUSSIA": "Rusija",
+    "SERBIA": "Srbija",
+    "SLOVAKIA": "Slovačka",
+    "SLOVENIA": "Slovenija",
+    "SPAIN": "Španjolska",
+    "SWEDEN": "Švedska",
+    "SWITZERLAND": "Švicarska",
+    "TURKEY": "Turska",
+    "UKRAINE": "Ukrajina",
+    "UNITED_KINGDOM": "Ujedinjeno Kraljevstvo"
+  },
+  "addressForm": {
+    "label": "Podaci o adresi",
+    "street": {
+      "label": "Ulica",
+      "placeholder": "Unesite ulicu",
+      "validationMessage": "Ulica je obavezna."
+    },
+    "house_number": {
+      "label": "Kućni broj",
+      "placeholder": "Unesite kućni broj",
+      "validationMessage": "Kućni broj je obavezan."
+    },
+    "postal_code": {
+      "label": "Poštanski Broj",
+      "placeholder": "Unesite poštanski broj",
+      "validationMessage": "Poštanski broj je obavezan."
+    },
+    "city": {
+      "label": "Grad",
+      "placeholder": "Unesite grad",
+      "validationMessage": "Grad je obavezan."
+    },
+    "country": {
+      "label": "Država",
+      "placeholder": "Unesite državu",
+      "validationMessage": "Država je obavezna."
+    }
+  },
+  "load": {
+    "pickup": "Utovar",
+    "delivery": "Istovar",
+    "addLoad": "Dodaj",
+    "client": "Klijent",
+    "driver": "Vozač",
+    "status": "Status",
+    "date": "Datum",
+    "startingPoint": "Polazište",
+    "endingPoint": "Odredište",
+    "invoiceStatus": "Status računa",
+    "paid": "Plaćeno",
+    "dispatcher": "Dispečer",
+    "createInvoice": "Napravi račun",
+    "invoiceNotCreated": "Nije kreiran",
+    "noDataTitle": "Nema utovara",
+    "noDataDescription": "Još niste kreirali nijedan utovar. Započnite dodavanjem prvog utovara.",
+    "details": "Detalji utovara",
+    "truck": "Kamion",
+    "trailer": "Prikolica",
+    "price": "Cijena",
+    "paymentDate": "Datum plaćanja",
+    "messageForDriver": "Poruka za vozača",
+    "additionalNotes": "Dodatne napomene",
+    "stops": "Postaje",
+    "noStops": "Nema dodanih postaja",
+    "additionalCosts": "Dodatni troškovi"
+  },
+  "loadModal": {
+    "titleAddNew": "Dodaj novi utovar",
+    "titleEdit": "Uredi utovar",
+    "titleDelete": "Obriši utovar",
+    "subtitleAdd": "Kreiraj novi utovar s postajama i detaljima",
+    "subtitleEdit": "Izmijeni informacije o utovaru i postaje",
+    "buttonAddNew": "Dodaj utovar",
+    "buttonEdit": "Ažuriraj utovar",
+    "buttonDelete": "Obriši utovar",
+    "buttonCancel": "Odustani",
+    "successAdd": "Utovar uspješno dodan",
+    "successEdit": "Utovar uspješno ažuriran",
+    "successDelete": "Utovar uspješno obrisan",
+    "client": "Klijent",
+    "dispatch": "Dispečer",
+    "date": "Datum plaćanja",
+    "invoicePrice": "Cijena",
+    "priceAditionalCost": "Dodatni trošak",
+    "noteAditionalCost": "Napomena dodatnog troška",
+    "messageForDriver": "Dodatna napomena",
+    "loadingNumber": "Utovarni broj",
+    "stopType": "Tip postaje",
+    "stopDate": "Datum postaje",
+    "loadingDate": "Datum utovara",
+    "unloadingDate": "Datum istovara",
+    "selectTimeFrom": "Radno vrijeme od",
+    "selectTimeTo": "Radno vrijeme do",
+    "address": "Adresa",
+    "country": "Država",
+    "city": "Grad",
+    "postal_code": "Poštanski broj",
+    "street": "Ulica",
+    "house_number": "Kućni broj",
+    "addNewStop": "Dodaj utovar/istovar",
+    "basicInfo": "Osnovne informacije",
+    "stops": "Postaje",
+    "additionalInfo": "Dodatne informacije",
+    "additionalCosts": "Dodatni troškovi",
+    "addNewCost": "Dodaj trošak",
+    "costNumber": "Stavka",
+    "costDescription": "Opis",
+    "costPrice": "Cijena"
+  },
+  "quickActions": {
+    "addNewLoad": "Dodaj",
+    "addNewDriver": "Dodaj",
+    "addNewClient": "Dodaj",
+    "addNewTruck": "Dodaj",
+    "addNewTrailer": "Dodaj",
+    "addNewDispatch": "Dodaj",
+    "addNewService": "Dodaj",
+    "addNewInvoice": "Dodaj"
+  },
+  "calendar": {
+    "today": "Danas",
+    "month": "Mjesec",
+    "week": "Tjedan",
+    "day": "Danas",
+    "previous": "Prethodno",
+    "next": "Sljedeće",
+    "previousWeek": "Prošli tjedan",
+    "nextWeek": "Idući tjedan",
+    "dispatcherName": "IME DISPATCHERA",
+    "durationDays": "Trajanje dana",
+    "date": "Datum",
+    "instructions": "Upute",
+    "selectDates": "Odaberite datume i bit ćete upućeni da kreirate novi događaj",
+    "dragDropResize": "Povucite, ispustite i promijenite veličinu događaja",
+    "clickToDelete": "Kliknite na događaj da ga izbrišete",
+    "toggleWholeCalendar": "prebacivanje cijelog kalendara",
+    "toggleWeekends": "prebacivanje vikenda",
+    "allEvents": "Svi događaji"
+  },
+  "modal": {
+    "submitButton": "Spremi"
+  },
+  "shared": {
+    "name": "Ime",
+    "country": "Država",
+    "vat_number": "Porezni broj",
+    "saveError": "Došlo je do pogreške prilikom spremanja, molimo pokušajte ponovno.",
+    "registration_plate": "Registarska oznaka",
+    "registrated_until": "Registriran do",
+    "make": "Marka",
+    "role": "Rola",
+    "clientName": "Ime klijenta",
+    "invalidPageTitle": "Nema rezultata",
+    "invalidPageDescription": "Nema rezultata za trenutnu stranicu. Pokušajte resetirati filtere da vidite sve dostupne podatke.",
+    "resetFilters": "Resetiraj filtere"
+  },
+  "form": {
+    "maxLengthError": "Prekoračena maksimalna duljina",
+    "minLengthError": "Premala duljina"
+  },
+  "client": {
+    "noDataTitle": "Nema klijenata",
+    "noDataDescription": "Još niste kreirali nijednog klijenta. Započnite dodavanjem prvog klijenta.",
+    "views": {
+      "modal": {
+        "title": "Dodaj Klijenta",
+        "successAdd": "Klijent je uspješno dodan",
+        "successEdit": "Podaci o klijentu su uspješno ažurirani"
+      },
+      "form": {
+        "name": {
+          "label": "Ime",
+          "placeholder": "Unesite ime klijenta",
+          "validationMessage": "Ime je obavezno."
+        },
+        "vat_number": {
+          "label": "Porezni broj",
+          "placeholder": "Unesite porezni broj",
+          "validationMessage": "Porezni broj je obavezan."
+        },
+        "address": {
+          "label": "Adresa",
+          "placeholder": "Unesite adresu",
+          "validationMessage": "Adresa je obavezna."
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Unesite email adresu",
+          "validationMessage": "Molimo unesite valjanu email adresu."
+        },
+        "mobile_number": {
+          "label": "Broj telefona",
+          "placeholder": "Unesite broj telefona",
+          "validationMessage": "Molimo unesite valjani broj telefona."
+        }
+      }
+    }
+  },
+  "trailer": {
+    "noDataTitle": "Nema prikolica",
+    "noDataDescription": "Još niste kreirali nijednu prikolicu. Započnite dodavanjem prve prikolice.",
+    "enums": {
+      "trailerTypes": {
+        "BEVERAGES": "Za piće",
+        "BOX": "Sanduk",
+        "CAR_CARRIER": "Za vozila",
+        "CATTLE": "Stočarka",
+        "CHASSIS": "Šasija",
+        "DEEP_FREEZE": "Hladnjača - dupli režim",
+        "MILK_TANK": "Prehambrena cisterna",
+        "LONG_MATERIAL": "Produživa",
+        "LOW_LOADER": "Labudica",
+        "PLATFORM": "Platforma",
+        "REFRIGERATOR": "Hladnjača",
+        "SILO": "Silos cisterna",
+        "STAKE_BODY": "Sa stranicama",
+        "STAKE_BODY_TARPAULIN": "Cerada",
+        "ROLL_OFF_TIPPER": "Kontenjer",
+        "TANK_BODIES": "Cisterna",
+        "TIMBER_CARRIER": "Šumarska",
+        "TIPPER": "Kiper",
+        "WALKING_FLOOR": "Pomični pod",
+        "CONCRETE_PUMP": "Beton pumpa",
+        "MOUNTED_CRANE": "S kranom",
+        "GLASS_TRANSPORT": "Za stakla",
+        "BOAT_TRAILER": "Za brodove",
+        "OTHER": "Ostalo"
+      }
+    },
+    "views": {
+      "modal": {
+        "successAdd": "Prikolica je uspješno dodana",
+        "successEdit": "Podaci o prikolici su uspješno ažurirani",
+        "title": "Podaci o prikolici"
+      },
+      "form": {
+        "make": {
+          "label": "Proizvođač",
+          "placeholder": "Unesite proizvođača",
+          "validationMessage": "Proizvođač je obavezan."
+        },
+        "registration_plate": {
+          "label": "Registarska oznaka",
+          "placeholder": "Unesite registracijsku oznaku",
+          "validationMessage": "Registarska oznaka je obavezna."
+        },
+        "type": {
+          "label": "Tip nadogradnje"
+        },
+        "manufacture_date": {
+          "label": "Godina proizvodnje",
+          "placeholder": "Unesite godinu proizvodnje (YYYY)",
+          "validationMessage": "Godina proizvodnje obavezana."
+        },
+        "periodicInspection": {
+          "label": "Periodični",
+          "placeholder": "Unesite datum periodičkog (YYYY)"
+        },
+        "model": {
+          "label": "Model",
+          "placeholder": "Unesite model",
+          "validationMessage": "Model je obavezan."
+        },
+        "vin_number": {
+          "label": "Broj šasije",
+          "placeholder": "Unesite broj šasije",
+          "validationMessage": "Broj šasije je obavezan."
+        },
+        "registrated_until": {
+          "label": "Registriran do",
+          "placeholder": "Unesite datum isteka registracije",
+          "validationMessage": "Datum isteka je obavezan."
+        }
+      }
+    }
+  },
+  "truck": {
+    "noDataTitle": "Nema kamiona",
+    "noDataDescription": "Još niste kreirali nijedan kamion. Započnite dodavanjem prvog kamiona.",
+    "enums": {
+      "truckTypes": {
+        "BEVERAGES": "Za piće",
+        "BOX": "Sanduk",
+        "BREAKDOWN": "Za pomoć na cesti",
+        "CAR_CARRIER": "Za vozila",
+        "CEMENT_MIXER": "Miješalica za beton",
+        "CHASSIS": "Šasija",
+        "CONCRETE_PUMP": "Pumpa za beton",
+        "DUMPER": "Kontenjeri za otpad",
+        "MILK_TANK": "Prehrambena cisterna",
+        "GRAIN": "Za žito",
+        "HORSES": "Za konje",
+        "HYDRAULIC_WORK_PLATFORM": "Hidraulička radna platforma",
+        "REFRIGERATOR": "Hladnjača",
+        "REFUSE": "Smetlar",
+        "ROLL_OFF_TIPPER": "Kontenjer",
+        "STAKE_BODY": "Sa stranicama",
+        "STAKE_BODY_TARPAULIN": "Cerada",
+        "SWEEPING_MACHINE": "Za čišćenje",
+        "TANK_BODY": "Cisterna",
+        "TIMBER_CARRIER": "Šumar",
+        "TIPPER": "Kiper",
+        "MOUNTED_CRANE": "Kran",
+        "CATTLE": "Stočar",
+        "VAN": "Kombi",
+        "STANDARD_TRACTOR": "Tegljač",
+        "OTHER": "Ostalo"
+      }
+    },
+    "views": {
+      "modal": {
+        "successAdd": "Kamion je uspješno dodan",
+        "successEdit": "Podaci o kamionu su uspješno ažurirani",
+        "title": "Informacije o kamionu"
+      },
+      "form": {
+        "make": {
+          "label": "Marka",
+          "placeholder": "Unesite marku kamiona",
+          "validationMessage": "Marka je obavezna."
+        },
+        "registration_plate": {
+          "label": "Registarska oznaka",
+          "placeholder": "Unesite registracijsku oznaku",
+          "validationMessage": "Registarska oznaka je obavezna."
+        },
+        "type": {
+          "label": "Tip nadogradnje",
+          "placeholder": "Odaberite tip nadogradnje",
+          "validationMessage": "Tip nadogradnje je obavezan."
+        },
+        "manufacture_date": {
+          "label": "Godina proizvodnje",
+          "placeholder": "Unesite godinu proizvodnje",
+          "validationMessage": "Godina proizvodnje obavezana."
+        },
+        "model": {
+          "label": "Model",
+          "placeholder": "Unesite model kamiona",
+          "validationMessage": "Model kamiona je obavezan."
+        },
+        "vin_number": {
+          "label": "Broj šasije",
+          "placeholder": "Unesite broj šasije",
+          "validationMessage": "Broj šasije je obavezan."
+        },
+        "registrated_until": {
+          "label": "Registriran do",
+          "placeholder": "Unesite datum registracije",
+          "validationMessage": "Registriran do je obavezno."
+        },
+        "color": {
+          "label": "Boja",
+          "placeholder": "Unesite boju",
+          "validationMessage": "Boja je obavezna."
+        },
+        "submitButton": "Dodaj Kamion"
+      }
+    }
+  },
+  "dispatch": {
+    "noDataTitle": "Nema dodjele vozila",
+    "noDataDescription": "Još niste kreirali nijednu dodjelu vozila. Započnite dodavanjem prve dodjele vozila.",
+    "views": {
+      "modal": {
+        "successAdd": "Dodjela vozila vozaču je uspješno dodana",
+        "successEdit": "Podaci o dodjeli vozila vozaču su uspješno ažurirani",
+        "title": "Dodjela vozila vozaču"
+      },
+      "form": {
+        "truck": {
+          "label": "Kamion",
+          "placeholder": "Kamion",
+          "validationMessage": "Kamion je obavezan"
+        },
+        "trailer": {
+          "label": "Prikolica",
+          "placeholder": "Prikolica",
+          "validationMessage": "Prikolica je obavezna"
+        },
+        "driver": {
+          "label": "Vozač",
+          "placeholder": "Vozač",
+          "validationMessage": "Vozač je obavezan"
+        }
+      }
+    }
+  },
+  "driver": {
+    "noDataTitle": "Nema zaposlenika",
+    "noDataDescription": "Još niste kreirali nijednog zaposlenika. Započnite dodavanjem prvog zaposlenika.",
+    "views": {
+      "modal": {
+        "title": "Podaci o zaposleniku",
+        "successAdd": "Zaposlenik je uspješno dodan",
+        "successEdit": "Podaci o zaposleniku su uspješno ažurirani"
+      },
+      "form": {
+        "name": {
+          "label": "Ime",
+          "placeholder": "Ime",
+          "validationMessage": "Ime je obavezno."
+        },
+        "lastname": {
+          "label": "Prezime",
+          "placeholder": "Prezime",
+          "validationMessage": "Prezime je obavezno."
+        },
+        "username": {
+          "label": "Korisničko ime",
+          "placeholder": "Unesite svoje korisničko ime",
+          "validationMessage": "Korisničko ime je obavezno."
+        },
+        "password": {
+          "label": "Lozinka",
+          "placeholder": "Unesite svoju lozinku",
+          "validationMessage": "Lozinka je obavezna."
+        },
+        "createUser": {
+          "label": "Dodaj kao korisnika"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Email",
+          "validationMessage": "Email je obavezan."
+        },
+        "oib": {
+          "label": "OIB",
+          "placeholder": "OIB",
+          "validationMessage": "OIB ne smije imati više od 20 znakova."
+        },
+        "driversLicenceNumber": {
+          "label": "Broj vozačke dozvole",
+          "placeholder": "Broj vozačke dozvole",
+          "validationMessage": "Broj vozačke dozvole ne smije imati više od 20 znakova."
+        },
+        "driversLicenceValidationPeriod": {
+          "label": "Datum važenja vozačke dozvole",
+          "placeholder": "Datum važenja vozačke dozvole",
+          "validationMessage": "Datum važenja vozačke dozvole je obavezan za vozače"
+        },
+        "driversCardNumber": {
+          "label": "Broj kartice vozača",
+          "placeholder": "Broj kartice vozača",
+          "validationMessage": "Broj kartice vozača ne smije imati više od 20 znakova."
+        },
+        "driversCardValidationPeriod": {
+          "label": "Datum važenja kartice vozača",
+          "placeholder": "Datum važenja kartice vozača",
+          "validationMessage": "Datum važenja kartice vozača je obavezan za vozače"
+        },
+        "telephoneNumber": {
+          "label": "Telefonski broj",
+          "placeholder": "Telefonski broj",
+          "validationMessage": "Telefonski broj ne smije imati više od 25 znakova."
+        },
+        "submitButton": "Dodaj"
+      }
+    }
+  },
+  "dispatchBoard": {
+    "headers": {
+      "truck": "KAMION",
+      "trailer": "PRIKOLICA",
+      "driver": "VOZAČ",
+      "status": "STATUS",
+      "pickup": "PREUZIMANJE",
+      "delivery": "DOSTAVA"
+    },
+    "status": {
+      "error": "GREŠKA",
+      "active": "AKTIVNO",
+      "completed": "ZAVRŠENO"
+    }
+  },
+  "invoice": {
+    "details": {
+      "addNewInvoice": "Dodaj novi račun",
+      "noDataTitle": "Nema pronađenih računa",
+      "noDataDescription": "Još niste kreirali nijedan račun. Započnite dodavanjem prvog računa.",
+      "noAdditionalInformation": "Nema dodatnih informacija",
+      "backToInvoices": "Natrag na račune",
+      "saveChanges": "Spremi promjene",
+      "editInvoice": "Uredi račun",
+      "invoiceNumber": "Broj računa",
+      "status": "Status",
+      "dueDate": "Datum dospijeća",
+      "billFrom": "Platitelj",
+      "billTo": "Primatelj",
+      "oib": "OIB",
+      "vat": "PDV",
+      "additionalInformation": "Dodatne informacije",
+      "table": {
+        "index": "#",
+        "item": "Stavka",
+        "description": "Opis",
+        "quantity": "Količina",
+        "netPrice": "Cijena bez PDV-a",
+        "discount": "Popust %",
+        "taxPercentage": "PDV %",
+        "grossPrice": "Cijena s PDV-om",
+        "total": "Ukupno",
+        "actions": "Akcije",
+        "removeProduct": "Ukloni proizvod"
+      },
+      "form": {
+        "name": "Naziv",
+        "description": "Opis",
+        "quantity": "Količina",
+        "netPrice": "Cijena bez PDV-a",
+        "discount": "Popust %",
+        "taxPercentage": "PDV %",
+        "grossPrice": "Cijena s PDV-om",
+        "nameRequired": "Naziv je obavezan",
+        "descriptionRequired": "Opis je obavezan",
+        "quantityRequired": "Količina mora biti najmanje 1",
+        "netPriceRequired": "Neto cijena je obavezna i mora biti pozitivna",
+        "taxPercentageRequired": "PDV postotak je obavezan i mora biti pozitivan",
+        "additionalInformation": "Dodatne informacije",
+        "noAdditionalInformation": "Nema dodatnih informacija",
+        "additionalInformationPlaceholder": "Unesite dodatne informacije",
+        "selectVatDescription": "Odaberite PDV opis",
+        "selectVatDescriptionPlaceholder": "Odaberite iz postojećih PDV opisa",
+        "noVatDescriptions": "Nema dostupnih PDV opisa",
+        "searchClient": "Pretraži klijenta",
+        "client": "Klijent",
+        "paymentDueDate": "Datum dospijeća plaćanja",
+        "clientRequired": "Klijent je obavezan",
+        "addNewClient": "Dodaj novog klijenta"
+      },
+      "addNewProduct": "Dodaj novi proizvod",
+      "noName": "Bez naziva",
+      "statusChangeSuccess": "Status računa uspješno ažuriran",
+      "summary": {
+        "netBase": "Osnovica",
+        "totalDiscount": "Ukupni popust",
+        "taxBreakdown": "PDV",
+        "totalVat": "Ukupno PDV",
+        "total": "Ukupno"
+      }
+    },
+    "status": {
+      "updated": "Status računa uspješno ažuriran",
+      "updateError": "Status računa nije moguće ažurirati"
+    },
+    "list": {
+      "totalPriceAfterTax": "Cijena",
+      "totalPriceBeforeTax": "Osnovica",
+      "status": "Status",
+      "budget": "Budžet",
+      "actionsMenu": "Meni akcija",
+      "invoiceNumber": "Broj računa",
+      "currency": "Valuta",
+      "paymentDueDate": "Datum dospijeća plaćanja",
+      "description": "Opis",
+      "discount": "Popust",
+      "taxValue": "Vrijednost PDV-a"
+    },
+    "noDataTitle": "Nema računa",
+    "noDataDescription": "Još niste kreirali nijedan račun. Započnite dodavanjem prvog računa.",
+    "addNewInvoice": "Dodaj račun"
+  },
+  "common": {
+    "close": "Zatvori",
+    "selectOption": "Odaberi opciju",
+    "loading": "Učitavanje...",
+    "delete": "Obriši",
+    "back": "Natrag",
+    "edit": "Uredi",
+    "download": "Preuzmi"
+  },
+  "status": {
+    "load": {
+      "ASSIGNED": "Dodijeljeno",
+      "FINISHED": "Završeno",
+      "IN_PROGRESS": "U tijeku",
+      "TEMPLATE": "Predložak",
+      "UNASSIGNED": "Nedodijeljeno"
+    },
+    "invoice": {
+      "CANCELED": "Storno",
+      "DRAFT": "Skica",
+      "OVERDUE": "Prekoračen rok",
+      "PAID": "Plaćen",
+      "PENDING": "Nije dospio",
+      "UNPAID": "Nije plaćen",
+      "PARTIALLY_PAID": "Djelomično plaćen"
+    }
+  },
+  "COMPANY_SETTINGS": {
+    "TITLE": "Postavke tvrtke",
+    "SUBTITLE": "Upravljajte informacijama i postavkama vaše tvrtke",
+    "NO_COMPANY_FOUND": "Nema pronađene tvrtke",
+    "ERROR_LOADING_COMPANIES": "Greška pri učitavanju tvrtki",
+    "ERROR_LOADING_COMPANY": "Greška pri učitavanju podataka o tvrtki",
+    "SUCCESS_UPDATE": "Podaci o tvrtki uspješno ažurirani",
+    "ERROR_UPDATE": "Greška pri ažuriranju podataka o tvrtki",
+    "COMPANY_NOT_REGISTERED": "Registracija tvrtke obavezna",
+    "COMPANY_REGISTRATION_REQUIRED": "Molimo dovršite registraciju tvrtke prije pristupa drugim funkcijama",
+    "FORM": {
+      "INVOICE_SETTINGS_TITLE": "Postavke računa",
+      "NAME": {
+        "LABEL": "Naziv tvrtke",
+        "PLACEHOLDER": "Unesite naziv tvrtke",
+        "VALIDATION_MESSAGE": "Naziv tvrtke je obavezan"
+      },
+      "OIB": {
+        "LABEL": "OIB",
+        "PLACEHOLDER": "Unesite OIB broj",
+        "VALIDATION_MESSAGE": "OIB je obavezan"
+      },
+      "ADDRESS": {
+        "GEOLOCATION": {
+          "LATITUDE": {
+            "LABEL": "Geografska širina",
+            "PLACEHOLDER": "Unesite geografsku širinu"
+          },
+          "LONGITUDE": {
+            "LABEL": "Geografska dužina",
+            "PLACEHOLDER": "Unesite geografsku dužinu"
+          }
+        },
+        "STREET": {
+          "LABEL": "Ulica",
+          "PLACEHOLDER": "Unesite naziv ulice",
+          "VALIDATION_MESSAGE": "Ulica je obavezna"
+        },
+        "HOUSE_NUMBER": {
+          "LABEL": "Kućni broj",
+          "PLACEHOLDER": "Unesite kućni broj",
+          "VALIDATION_MESSAGE": "Kućni broj je obavezan"
+        },
+        "POSTAL_CODE": {
+          "LABEL": "Poštanski broj",
+          "PLACEHOLDER": "Unesite poštanski broj",
+          "VALIDATION_MESSAGE": "Poštanski broj je obavezan"
+        },
+        "CITY": {
+          "LABEL": "Grad",
+          "PLACEHOLDER": "Unesite grad",
+          "VALIDATION_MESSAGE": "Grad je obavezan"
+        },
+        "COUNTRY": {
+          "LABEL": "Država",
+          "PLACEHOLDER": "Odaberite državu",
+          "VALIDATION_MESSAGE": "Država je obavezna"
+        }
+      },
+      "INVOICE_SETTINGS": {
+        "VAT_PERCENTAGE": {
+          "LABEL": "PDV postotak",
+          "PLACEHOLDER": "Unesite PDV postotak",
+          "VALIDATION_MESSAGE": "PDV postotak je obavezan"
+        },
+        "INVOICE_NUMBER_SEPARATOR": {
+          "LABEL": "Separator broja računa",
+          "PLACEHOLDER": "Odaberite separator",
+          "VALIDATION_MESSAGE": "Separator broja računa je obavezan",
+          "OPTIONS": {
+            "DASH": "Minus (-)",
+            "DOT": "Točka (.)",
+            "NONE": "Bez separatora",
+            "SLASH": "Kosnica (/)"
+          }
+        },
+        "VAT_DESCRIPTION": {
+          "LABEL": "PDV opis",
+          "ITEM_LABEL": "Opis",
+          "PLACEHOLDER": "Unesite PDV opis",
+          "VALIDATION_MESSAGE": "PDV opis je obavezan",
+          "ADD_BUTTON": "Dodaj PDV opis",
+          "REMOVE_BUTTON": "Ukloni PDV opis",
+          "EMPTY_STATE": "Nema dodanih PDV opisa. Kliknite + gumb za dodavanje.",
+          "TITLE": "PDV Opis"
+        },
+        "REPEAT_SECTION": {
+          "ITEM_TITLE": "Stavka",
+          "REMOVE_BUTTON": "Ukloni",
+          "EMPTY_STATE": "Nema dodanih stavki. Kliknite + gumb za dodavanje."
+        }
+      }
+    }
+  },
+  "table": {
+    "searchTable": "Pretraži tabelu...",
+    "columns": "Kolone",
+    "selectDefaults": "Zadano",
+    "selectAll": "Odaberi sve",
+    "columnsSelected": "kolona odabrano",
+    "actions": "Akcije",
+    "actionEdit": "Uredi",
+    "actionDelete": "Obriši",
+    "actionCopy": "Kopiraj",
+    "add": "Dodaj",
+    "truck": "Kamion",
+    "trailer": "Prikolica"
+  },
+  "USER_SETTINGS": {
+    "TITLE": "Postavke korisnika",
+    "SUBTITLE": "Dovršite postavljanje profila zaposlenika",
+    "EMPLOYEE_NOT_SETUP": "Postavljanje profila zaposlenika obavezno",
+    "EMPLOYEE_SETUP_REQUIRED": "Molimo dovršite postavljanje profila zaposlenika prije pristupa drugim funkcijama",
+    "SUCCESS_CREATE": "Profil zaposlenika uspješno kreiran",
+    "ERROR_CREATE": "Greška pri kreiranju profila zaposlenika",
+    "FORM": {
+      "FIRST_NAME": {
+        "LABEL": "Ime",
+        "PLACEHOLDER": "Unesite ime",
+        "VALIDATION_MESSAGE": "Ime je obavezno"
+      },
+      "LAST_NAME": {
+        "LABEL": "Prezime",
+        "PLACEHOLDER": "Unesite prezime",
+        "VALIDATION_MESSAGE": "Prezime je obavezno"
+      },
+      "OIB": {
+        "LABEL": "OIB",
+        "PLACEHOLDER": "Unesite OIB broj",
+        "VALIDATION_MESSAGE": "OIB je obavezan"
+      },
+      "PHONE_NUMBER": {
+        "LABEL": "Broj telefona",
+        "PLACEHOLDER": "Unesite broj telefona",
+        "VALIDATION_MESSAGE": "Broj telefona je obavezan"
+      },
+      "TYPE": {
+        "LABEL": "Tip zaposlenika",
+        "PLACEHOLDER": "Odaberite tip zaposlenika",
+        "VALIDATION_MESSAGE": "Tip zaposlenika je obavezan",
+        "OPTIONS": {
+          "OWNER": "Vlasnik",
+          "DRIVER": "Vozač",
+          "ACCOUNTANT": "Računovođa"
+        }
+      },
+
+      "CREATE_USER": {
+        "LABEL": "Kreiraj korisnički račun za ovog zaposlenika"
+      },
+      "COMPANY_CARDS": {
+        "LABEL": "Kartice tvrtke",
+        "ADD_BUTTON": "Dodaj karticu tvrtke",
+        "ITEM_TITLE": "Kartica tvrtke",
+        "REMOVE_BUTTON": "Ukloni karticu tvrtke",
+        "EMPTY_STATE": "Nema dodanih kartica tvrtke. Kliknite + gumb za dodavanje.",
+        "NAME": {
+          "LABEL": "Naziv kartice",
+          "PLACEHOLDER": "npr., Ina gorivo",
+          "VALIDATION_MESSAGE": "Naziv kartice je obavezan"
+        },
+        "NUMBER": {
+          "LABEL": "Broj kartice",
+          "PLACEHOLDER": "npr., 12345678"
+        }
+      },
+      "SUBMIT_BUTTON": "Spremi profil zaposlenika"
+    }
+  },
+  "routeTooltip": {
+    "routeDetails": "Detalji rute",
+    "stops": "Postaje",
+    "loading": "Utovar",
+    "unloading": "Istovar",
+    "order": "Narudžba",
+    "driverMessage": "Poruka za vozača",
+    "price": "Cijena"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.format": "explicit"
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "eslint.workingDirectories": [{ "mode": "auto" }]
+  // "eslint.workingDirectories": [
+  //     {
+  //       "mode": "auto"
+  //     }
+  // ],
+}

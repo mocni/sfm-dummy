@@ -1,0 +1,119 @@
+<div class="blank-layout-container justify-content-center">
+  <div class="position-relative row w-100 h-100">
+    <div class="col-12 col-lg-6 col-xl-5 col-xxl-4">
+      <div class="d-flex align-items-start align-items-lg-center justify-content-center h-100">
+        <div class="row justify-content-center w-100 h-100 align-items-center">
+          <div class="col-lg-9 max-width-form">
+            <a [routerLink]="['/']">
+              <img
+                src="./assets/images/logos/logo-icon.svg"
+                class="align-middle m-2"
+                alt="logo"
+              />
+            </a>
+            <h4 class="f-w-700 f-s-24 m-t-24 m-b-8">
+              {{ "login.title" | translate }}
+            </h4>
+
+            <form
+              class="m-t-30"
+              [formGroup]="form"
+              (ngSubmit)="submit()"
+            >
+              <mat-label class="f-s-14 f-w-600 m-b-12 d-block">{{ "login.username" | translate }}</mat-label>
+              <mat-form-field
+                appearance="outline"
+                class="w-100"
+                color="primary"
+              >
+                <input
+                  matInput
+                  formControlName="username"
+                />
+                @if (f["username"].touched && f["username"].invalid) {
+                  <mat-hint class="m-b-16 error-msg">
+                    @if (f["username"].errors && f["username"].errors["required"]) {
+                      <div class="text-error">
+                        {{ "login.invalidUsername" | translate }}
+                      </div>
+                    }
+                  </mat-hint>
+                }
+              </mat-form-field>
+
+              <!-- password -->
+              <mat-label class="f-s-14 f-w-600 m-b-12 d-block">{{ "login.password" | translate }}</mat-label>
+              <mat-form-field
+                appearance="outline"
+                class="w-100"
+                color="primary"
+              >
+                <input
+                  matInput
+                  type="password"
+                  formControlName="password"
+                />
+                @if (f["password"].touched && f["password"].invalid) {
+                  <mat-hint class="m-b-16 error-msg">
+                    @if (f["password"].errors && f["password"].errors["required"]) {
+                      <div class="text-error">
+                        {{ "login.invalidPassword" | translate }}
+                      </div>
+                    }
+                  </mat-hint>
+                }
+              </mat-form-field>
+
+              <div class="d-flex align-items-center justify-content-between mb-4">
+                <mat-checkbox color="primary">{{ "login.remberMe" | translate }}</mat-checkbox>
+                <a
+                  [routerLink]="['/authentication/side-forgot-pwd']"
+                  class="text-primary f-w-600 text-decoration-none m-l-auto f-s-14"
+                  >{{ "login.forgotPassword" | translate }}</a
+                >
+              </div>
+              <button
+                mat-flat-button
+                color="primary"
+                class="w-100 m-t-30"
+                [disabled]="!form.valid"
+              >
+                {{ "login.signIn" | translate }}
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-xl-7 col-xxl-8 position-relative overflow-hidden bg-dark-200 d-none d-lg-block">
+      <div class="circle-top"></div>
+      <div>
+        <img
+          src="/assets/images/logos/logo-icon.svg"
+          class="circle-bottom"
+          alt="Logo-Dark"
+        />
+      </div>
+      <div class="d-flex align-items-center z-1 position-relative h-n80">
+        <div class="row justify-content-center w-100">
+          <div class="col-lg-6">
+            <h2 class="text-white f-s-40 m-b-16">
+              Welcome to <br />
+              MatDash
+            </h2>
+            <span class="op-75 f-s-16 text-white d-block m-b-16"
+              >MatDash helps developers to build organized and well <br />
+              coded dashboards full of beautiful and rich modules.
+            </span>
+            <button
+              mat-flat-button
+              color="primary"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+{
+  "name": "@smart-fleet-management/tsconfig",
+  "scripts": {
+    "check-dependencies": "pnpm depcheck",
+    "clean": "pnpm clean:turbo-cache",
+    "clean:turbo-cache": "rm -rf .turbo"
+  },
+  "files": [
+    "tsconfig.base.json" 
+  ],
+  "private": true
+}

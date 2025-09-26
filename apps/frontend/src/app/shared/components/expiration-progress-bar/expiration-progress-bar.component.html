@@ -1,0 +1,12 @@
+@if (expireDate) {
+  <div class="d-flex align-items-center">
+    <div class="progress-container m-r-8">
+      <div
+        class="progress-bar"
+        [style.width.%]="percentageUsed"
+        [ngClass]="progressColorClass"
+      ></div>
+    </div>
+    <div class="progress-info">za {{ daysLeft }} dana</div>
+  </div>
+}

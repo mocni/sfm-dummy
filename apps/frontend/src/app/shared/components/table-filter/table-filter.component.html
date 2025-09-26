@@ -1,0 +1,45 @@
+<mat-card class="cardWithShadow">
+  <mat-card-content>
+    <div class="row justify-content-between">
+      <div class="col-sm-4">
+        <mat-form-field
+          appearance="outline"
+          class="hide-hint"
+        >
+          <input
+            matInput
+            [placeholder]="'table.searchTable' | translate"
+            [(ngModel)]="searchValue"
+            (ngModelChange)="onSearchChange($event)"
+          />
+          <mat-icon matSuffix>
+            <i-tabler
+              name="search"
+              class="icon-20"
+            ></i-tabler>
+          </mat-icon>
+        </mat-form-field>
+      </div>
+      <div class="d-flex justify-content-end align-items-center mt-xs-12 mt-lg-0">
+        <ng-container *ngTemplateOutlet="headerActions"></ng-container>
+
+        <!-- Column Selector -->
+        @if (showColumnSelector) {
+          <app-column-selector
+            [columns]="columnOptions"
+            (columnsChange)="onColumnsChange($event)"
+            class="m-r-12"
+          ></app-column-selector>
+        }
+
+        <button
+          mat-flat-button
+          (click)="onAddAction()"
+          color="primary"
+        >
+          {{ title }}
+        </button>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

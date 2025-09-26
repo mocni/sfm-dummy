@@ -1,0 +1,44 @@
+{
+    "name": "smart-fleet-management",
+    "private": true,
+    "scripts": {
+        "build": "turbo run build",
+        "dev": "turbo run dev --no-daemon --color --no-cache",
+        "dev:backend": "turbo run @smart-fleet-management/backend#dev --no-daemon --color",
+        "dev:frontend": "turbo run  @smart-fleet-management/frontend#dev --no-daemon --color",
+        "build:backend": "turbo run @smart-fleet-management/backend#build --no-daemon --color",
+        "build:frontend": "turbo run @smart-fleet-management/frontend#build --no-daemon --color",
+        "build:packages:development": "turbo run build:packages:development --no-daemon --color",
+        "clean": "pnpm clean:node_modules && rm -rf .turbo && pnpm -r clean",
+        "clean:node_modules": "rm -rf node_modules",
+        "clean:build": "pnpm -r clean:build",
+        "clean:turbo-cache": "rm -rf .turbo && pnpm -r clean:turbo-cache",
+        "install:frontend": "pnpm install --ignore-scripts --frozen-lockfile --filter \"@smart-fleet-management/frontend...\" --config.dedupe-peer-dependents=false",
+        "install:backend": "pnpm install --ignore-scripts --frozen-lockfile --filter \"@smart-fleet-management/backend...\" --config.dedupe-peer-dependents=false",
+        "install:backend:prod": "pnpm install --ignore-scripts --frozen-lockfile --filter-prod \"@smart-fleet-management/backend...\" --config.dedupe-peer-dependents=false ---prod",
+        "lint": "turbo run lint --no-daemon --color",
+        "lint:fix": "pnpm -r lint:fix",
+        "clean:build:all": "pnpm clean && pnpm clean:build && pnpm clean:turbo-cache && pnpm i && pnpm build:packages:development"
+    },
+    "devDependencies": {
+        "@smart-fleet-management/eslint-config": "workspace:*",
+        "lint-staged": "^15.2.7",
+        "prettier": "^3.3.2",
+        "ts-node": "^10.9.1",
+        "turbo": "^2.1.3"
+    },
+    "engines": {
+        "node": ">=20.11.1",
+        "pnpm": ">=9.1.0",
+        "npm": "use pnpm",
+        "yarn": "use pnpm"
+    },
+    "packageManager": "pnpm@9.1.0",
+    "workspaces": [
+        "packages/*",
+        "apps/*"
+    ],
+    "dependencies": {
+        "typescript": "5.4.4"
+    }
+}

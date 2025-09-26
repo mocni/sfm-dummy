@@ -1,0 +1,28 @@
+<ng-container *ngIf="!to.hidden">
+  <mat-form-field
+    appearance="outline"
+    class="w-100"
+  >
+    <mat-label>
+      {{ to.label ?? "" | translate }}
+      <span
+        *ngIf="to.required"
+        class="text-danger"
+        >*</span
+      >
+    </mat-label>
+
+    <input
+      [formControl]="getFormControl()"
+      matInput
+      [type]="to.type ?? 'text'"
+    />
+
+    <mat-icon matSuffix>
+      <i-tabler
+        [name]="to['icon']"
+        class="icon-20 d-flex"
+      ></i-tabler>
+    </mat-icon>
+  </mat-form-field>
+</ng-container>

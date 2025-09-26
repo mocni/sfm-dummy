@@ -1,0 +1,819 @@
+{
+  "login": {
+    "title": "Login to your account",
+    "password": "Password",
+    "remberMe": "Remember Me",
+    "forgotPassword": "Forgot Password?",
+    "signIn": "Sign in",
+    "invalidUsername": "Username is reuqired",
+    "invalidPassword": "Password is reuqired"
+  },
+  "COUNTRIES": {
+    "ALBANIA": "Albania",
+    "AUSTRIA": "Austria",
+    "BELGIUM": "Belgium",
+    "BOSNIA_AND_HERZEGOVINA": "Bosnia and Herzegovina",
+    "BULGARIA": "Bulgaria",
+    "CROATIA": "Croatia",
+    "CZECH_REPUBLIC": "Czech Republic",
+    "DENMARK": "Denmark",
+    "FINLAND": "Finland",
+    "FRANCE": "France",
+    "GERMANY": "Germany",
+    "GREECE": "Greece",
+    "HUNGARY": "Hungary",
+    "IRELAND": "Ireland",
+    "ITALY": "Italy",
+    "LATVIA": "Latvia",
+    "LITHUANIA": "Lithuania",
+    "NETHERLANDS": "Netherlands",
+    "NORTH_MACEDONIA": "North Macedonia",
+    "NORWAY": "Norway",
+    "POLAND": "Poland",
+    "ROMANIA": "Romania",
+    "RUSSIA": "Russia",
+    "SERBIA": "Serbia",
+    "SLOVAKIA": "Slovakia",
+    "SLOVENIA": "Slovenia",
+    "SPAIN": "Spain",
+    "SWEDEN": "Sweden",
+    "SWITZERLAND": "Switzerland",
+    "TURKEY": "Turkey",
+    "UKRAINE": "Ukraine",
+    "UNITED_KINGDOM": "United Kingdom"
+  },
+  "sidebar": {
+    "clients": "Clients",
+    "trailers": "Trailers",
+    "trucks": "Trucks",
+    "workOrders": "Work orders",
+    "dispatch": "Dispatch",
+    "employees": "Employees",
+    "load": "Load",
+    "reports": "Reports",
+    "services": "Services",
+    "invoices": "Invoices",
+    "dispatchBoard": "Dispatch Board",
+    "companySettings": "Company",
+    "userSettings": "Profile",
+    "signOut": "Sign Out"
+  },
+  "addressForm": {
+    "label": "Address Information",
+    "street": {
+      "label": "Street",
+      "placeholder": "Enter street",
+      "validationMessage": "Street is required."
+    },
+    "house_number": {
+      "label": "House Number",
+      "placeholder": "Enter house number",
+      "validationMessage": "House number is required."
+    },
+    "postal_code": {
+      "label": "Postal Code",
+      "placeholder": "Enter postal code",
+      "validationMessage": "Postal code is required."
+    },
+    "city": {
+      "label": "City",
+      "placeholder": "Enter city",
+      "validationMessage": "City is required."
+    },
+    "country": {
+      "label": "Country",
+      "placeholder": "Enter country",
+      "validationMessage": "Country is required."
+    }
+  },
+  "calendar": {
+    "today": "Today",
+    "month": "Month",
+    "week": "Week",
+    "day": "Day",
+    "previous": "Previous",
+    "next": "Next",
+    "previousWeek": "Previous Week",
+    "nextWeek": "Next Week",
+    "dispatcherName": "DISPATCHER NAME",
+    "durationDays": "Duration days",
+    "date": "Date",
+    "instructions": "Instructions",
+    "selectDates": "Select dates and you will be prompted to create a new event",
+    "dragDropResize": "Drag, drop, and resize events",
+    "clickToDelete": "Click an event to delete it",
+    "toggleWholeCalendar": "toggle whole calendar",
+    "toggleWeekends": "toggle weekends",
+    "allEvents": "All Events"
+  },
+  "modal": {
+    "submitButton": "Save"
+  },
+  "load": {
+    "pickup": "Pickup",
+    "delivery": "Delivery",
+    "addLoad": "Add",
+    "client": "Client",
+    "title": "Title",
+    "status": "Status",
+    "date": "Date",
+    "startingPoint": "Starting Point",
+    "endingPoint": "Destination",
+    "invoiceStatus": "Invoice Status",
+    "paid": "Paid",
+    "dispatcher": "Dispatcher",
+    "createInvoice": "Create Invoice",
+    "invoiceNotCreated": "Not created",
+    "noDataTitle": "No Loads Found",
+    "noDataDescription": "You haven't created any loads yet. Start by adding your first load to get started.",
+    "details": "Load Details",
+    "driver": "Driver",
+    "truck": "Truck",
+    "trailer": "Trailer",
+    "price": "Price",
+    "paymentDate": "Payment Date",
+    "messageForDriver": "Message for Driver",
+    "additionalNotes": "Additional Notes",
+    "stops": "Stops",
+    "noStops": "No stops added",
+    "additionalCosts": "Additional Costs"
+  },
+  "loadModal": {
+    "titleAddNew": "Add New Load",
+    "titleEdit": "Edit Load",
+    "titleDelete": "Delete Load",
+    "subtitleAdd": "Create a new load with stops and details",
+    "subtitleEdit": "Modify load information and stops",
+    "buttonAddNew": "Add Load",
+    "buttonEdit": "Update Load",
+    "buttonDelete": "Delete Load",
+    "buttonCancel": "Cancel",
+    "successAdd": "Load added successfully",
+    "successEdit": "Load updated successfully",
+    "successDelete": "Load deleted successfully",
+    "client": "Client",
+    "dispatch": "Dispatcher",
+    "date": "Payment Date",
+    "invoicePrice": "Price",
+    "priceAditionalCost": "Additional Cost",
+    "noteAditionalCost": "Additional Cost Note",
+    "messageForDriver": "Additional Note",
+    "loadingNumber": "Loading Number",
+    "stopType": "Stop Type",
+    "stopDate": "Stop Date",
+    "loadingDate": "Loading Date",
+    "unloadingDate": "Unloading Date",
+    "selectTimeFrom": "Working Hours From",
+    "selectTimeTo": "Working Hours To",
+    "address": "Address",
+    "country": "Country",
+    "city": "City",
+    "postal_code": "Postal Code",
+    "street": "Street",
+    "house_number": "House Number",
+    "addNewStop": "Add Loading/Unloading",
+    "basicInfo": "Basic Information",
+    "stops": "Stops",
+    "additionalInfo": "Additional Information",
+    "additionalCosts": "Additional Costs",
+    "addNewCost": "Add Cost",
+    "costNumber": "Item",
+    "costDescription": "Description",
+    "costPrice": "Price"
+  },
+  "shared": {
+    "name": "Name",
+    "country": "Country",
+    "vat_number": "VAT Number",
+    "saveError": "Error while saving, please try again.",
+    "registration_plate": "Registration plate",
+    "registrated_until": "Registration from",
+    "make": "Make",
+    "role": "Rola",
+    "clientName": "Client Name",
+    "invalidPageTitle": "No results",
+    "invalidPageDescription": "No results found for the current page. Try resetting your filters to see all available data.",
+    "resetFilters": "Reset filters"
+  },
+  "form": {
+    "maxLengthError": "Maximum length error",
+    "minLengthError": "Minimum length error"
+  },
+  "client": {
+    "noDataTitle": "No Clients Found",
+    "noDataDescription": "You haven't created any clients yet. Start by adding your first client to get started.",
+    "views": {
+      "modal": {
+        "title": "Add Client",
+        "successAdd": "Client added successfully",
+        "successEdit": "Client data updated successfully"
+      },
+      "form": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter client name",
+          "validationMessage": "Name is required."
+        },
+        "vat_number": {
+          "label": "VAT Number",
+          "placeholder": "Enter VAT number",
+          "validationMessage": "VAT number is required."
+        },
+        "address": {
+          "label": "Address",
+          "placeholder": "Enter address",
+          "validationMessage": "Address is required."
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter email address",
+          "validationMessage": "Please enter a valid email address."
+        },
+        "mobile_number": {
+          "label": "Mobile Number",
+          "placeholder": "Enter mobile number",
+          "validationMessage": "Please enter a valid mobile number."
+        },
+        "submitButton": "Submit"
+      }
+    }
+  },
+  "trailer": {
+    "noDataTitle": "No Trailers Found",
+    "noDataDescription": "You haven't created any trailers yet. Start by adding your first trailer to get started.",
+    "enums": {
+      "trailerTypes": {
+        "BEVERAGES": "Beverages",
+        "BOX": "Box",
+        "CAR_CARRIER": "Car Carrier",
+        "CATTLE": "Cattle",
+        "CHASSIS": "Chassis",
+        "DEEP_FREEZE": "Deep Freeze",
+        "MILK_TANK": "Milk Tank",
+        "LONG_MATERIAL": "Long Material",
+        "LOW_LOADER": "Low Loader",
+        "PLATFORM": "Platform",
+        "REFRIGERATOR": "Refrigerator",
+        "SILO": "Silo",
+        "STAKE_BODY": "Stake Body",
+        "STAKE_BODY_TARPAULIN": "Tarpaulin",
+        "ROLL_OFF_TIPPER": "Roll Off Tipper",
+        "TANK_BODIES": "Tank",
+        "TIMBER_CARRIER": "Timber",
+        "TIPPER": "Tipper",
+        "WALKING_FLOOR": "Walking Floor",
+        "CONCRETE_PUMP": "Concrete Pump",
+        "MOUNTED_CRANE": "Mounted Crane",
+        "GLASS_TRANSPORT": "Glass Transport",
+        "BOAT_TRAILER": "Boat Trailer",
+        "OTHER": "Other"
+      }
+    },
+    "views": {
+      "modal": {
+        "title": "Trailer Information",
+        "successAdd": "Trailer added successfully",
+        "successEdit": "Trailer data updated successfully"
+      },
+      "form": {
+        "make": {
+          "label": "Trailer - Manufacturer",
+          "placeholder": "Enter manufacturer",
+          "validationMessage": "Manufacturer is requireds."
+        },
+        "registration_plate": {
+          "label": "Trailer - Registration Plate",
+          "placeholder": "Enter registration plate",
+          "validationMessage": "Registration plate is required."
+        },
+        "type": {
+          "label": "Trailer - Type"
+        },
+        "manufacture_date": {
+          "label": "Trailer - Manufacture Date",
+          "placeholder": "Enter manufacture date (YYYY)",
+          "validationMessage": "Manufacture date is required."
+        },
+        "periodicInspection": {
+          "label": "Trailer - Periodic Inspection",
+          "placeholder": "Enter date of periodic inspection (YYYY)"
+        },
+        "model": {
+          "label": "Trailer - Model",
+          "placeholder": "Enter model",
+          "validationMessage": "Model is required."
+        },
+        "vin_number": {
+          "label": "Trailer - VIN Number",
+          "placeholder": "Enter VIN number",
+          "validationMessage": "VIN number is required."
+        },
+        "registrated_until": {
+          "label": "Trailer - Registered Until",
+          "placeholder": "Enter registration expiration date",
+          "validationMessage": "Expiration date is required."
+        }
+      }
+    }
+  },
+  "truck": {
+    "noDataTitle": "No Trucks Found",
+    "noDataDescription": "You haven't created any trucks yet. Start by adding your first truck to get started.",
+    "enums": {
+      "truckTypes": {
+        "BEVERAGES": "Beverages",
+        "BOX": "Box",
+        "BREAKDOWN": "Breakdown",
+        "CAR_CARRIER": "Car carrier",
+        "CEMENT_MIXER": "Cement mixer",
+        "CHASSIS": "Chassis",
+        "CONCRETE_PUMP": "Concrete pump",
+        "DUMPER": "Dumper",
+        "MILK_TANK": "Milk tank",
+        "GRAIN": "Grain",
+        "HORSES": "Horses",
+        "HYDRAULIC_WORK_PLATFORM": "Hydraulic work platform",
+        "REFRIGERATOR": "Refrigerator",
+        "REFUSE": "Refuse",
+        "ROLL_OFF_TIPPER": "Roll off tipper",
+        "STAKE_BODY": "Stake body",
+        "STAKE_BODY_TARPAULIN": "Stake body tarpaulin",
+        "TARPAULIN": "Tarpaulin",
+        "SWEEPING_MACHINE": "Sweeping machine",
+        "TANK_BODY": "Tank",
+        "TIMBER_CARRIER": "Timber",
+        "TIPPER": "Tipper",
+        "MOUNTED_CRANE": "Mounted crane",
+        "CATTLE": "Cattle",
+        "VAN": "Van",
+        "STANDARD_TRACTOR": "Tractor",
+        "OTHER": "Other"
+      }
+    },
+    "views": {
+      "modal": {
+        "title": "Truck Information",
+        "successAdd": "Truck added successfully",
+        "successEdit": "Truck data updated successfully"
+      },
+      "form": {
+        "make": {
+          "label": "Make",
+          "placeholder": "Enter the truck make",
+          "validationMessage": "Make is required."
+        },
+        "registration_plate": {
+          "label": "Registration Plate",
+          "placeholder": "Enter the registration plate",
+          "validationMessage": "Registration plate is required."
+        },
+        "type": {
+          "label": "Truck Type",
+          "placeholder": "Select the truck type",
+          "validationMessage": "Truck type is required."
+        },
+        "manufacture_date": {
+          "label": "Manufacture Date",
+          "placeholder": "Enter the year of manufacture",
+          "validationMessage": "Manufacture date is required."
+        },
+        "model": {
+          "label": "Model",
+          "placeholder": "Enter the truck model",
+          "validationMessage": "Truck model is required."
+        },
+        "vin_number": {
+          "label": "VIN Number",
+          "placeholder": "Enter the VIN number",
+          "validationMessage": "VIN number is required."
+        },
+        "registrated_until": {
+          "label": "Registration Valid Until",
+          "placeholder": "Enter the registration expiry date",
+          "validationMessage": "Registration expiry date is required."
+        },
+        "color": {
+          "label": "Color",
+          "placeholder": "Enter the truck color",
+          "validationMessage": "Color is required."
+        },
+        "submitButton": "Add Truck"
+      }
+    }
+  },
+  "dispatch": {
+    "noDataTitle": "No Dispatch Found",
+    "noDataDescription": "You haven't created any dispatch assignments yet. Start by adding your first dispatch to get started.",
+    "views": {
+      "modal": {
+        "title": "Dispatch Information",
+        "successAdd": "Dispatch added successfully",
+        "successEdit": "Dispatch data updated successfully"
+      },
+      "form": {
+        "truck": {
+          "label": "Truck",
+          "placeholder": "Truck",
+          "validationMessage": "Truck is required"
+        },
+        "trailer": {
+          "label": "Trailer",
+          "placeholder": "Trailer",
+          "validationMessage": "Trailer is required"
+        },
+        "driver": {
+          "label": "Driver",
+          "placeholder": "Driver",
+          "validationMessage": "Driver is required"
+        }
+      }
+    }
+  },
+  "driver": {
+    "noDataTitle": "No Employees Found",
+    "noDataDescription": "You haven't created any employees yet. Start by adding your first employee to get started.",
+    "views": {
+      "modal": {
+        "title": "Employee Information",
+        "successAdd": "Employee added successfully",
+        "successEdit": "Employee data updated successfully"
+      },
+      "form": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Name",
+          "validationMessage": "Name is required."
+        },
+        "createUser": {
+          "label": "Add as user"
+        },
+        "lastname": {
+          "label": "Last Name",
+          "placeholder": "Enter your last name",
+          "validationMessage": "Last name is required."
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email",
+          "validationMessage": "Email is required."
+        },
+        "username": {
+          "label": "Username",
+          "placeholder": "Enter your username",
+          "validationMessage": "Username is required."
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Enter your password",
+          "validationMessage": "Password is required."
+        },
+        "oib": {
+          "label": "OIB",
+          "placeholder": "OIB",
+          "validationMessage": "OIB should not exceed 20 characters."
+        },
+        "driversLicenceNumber": {
+          "label": "Driver Licence Number",
+          "placeholder": "Driver Licence Number",
+          "validationMessage": "Driver Licence Number should not exceed 20 characters."
+        },
+        "driversLicenceValidationPeriod": {
+          "label": "Driver Licence Validation Period",
+          "placeholder": "Driver Licence Validation Period",
+          "validationMessage": "Driver Licence Validation Period is required for drivers"
+        },
+        "driversCardNumber": {
+          "label": "Driver Card Number",
+          "placeholder": "Driver Card Number",
+          "validationMessage": "Driver Card Number should not exceed 20 characters."
+        },
+        "driversCardValidationPeriod": {
+          "label": "Driver Card Validation Period",
+          "placeholder": "Driver Card Validation Period",
+          "validationMessage": "Driver Card Validation Period is required for drivers"
+        },
+        "telephoneNumber": {
+          "label": "Telephone Number",
+          "placeholder": "Telephone Number",
+          "validationMessage": "Telephone Number should not exceed 25 characters."
+        },
+        "submitButton": "Add"
+      }
+    }
+  },
+  "dispatchBoard": {
+    "headers": {
+      "truck": "TRUCK",
+      "trailer": "TRAILER",
+      "driver": "DRIVER",
+      "status": "STATUS",
+      "pickup": "PICKUP",
+      "delivery": "DELIVERY"
+    },
+    "status": {
+      "error": "ERROR",
+      "active": "ACTIVE",
+      "completed": "COMPLETED"
+    }
+  },
+  "invoice": {
+    "details": {
+      "addNewInvoice": "Add New Invoice",
+      "noDataTitle": "No Invoices Found",
+      "noDataDescription": "You haven't created any invoices yet. Start by adding your first invoice to get started.",
+      "noAdditionalInformation": "No additional information",
+      "backToInvoices": "Back to Invoices",
+      "saveChanges": "Save Changes",
+      "editInvoice": "Edit Invoice",
+      "invoiceNumber": "Invoice Number",
+      "status": "Status",
+      "dueDate": "Due Date",
+      "billFrom": "Bill From",
+      "billTo": "Bill To",
+      "oib": "OIB",
+      "vat": "VAT",
+      "additionalInformation": "Additional Information",
+      "table": {
+        "index": "#",
+        "item": "Item",
+        "description": "Description",
+        "quantity": "Qty",
+        "netPrice": "Net Price",
+        "discount": "Discount",
+        "taxPercentage": "Tax %",
+        "grossPrice": "Gross Price",
+        "total": "Total",
+        "actions": "Actions",
+        "removeProduct": "Remove product"
+      },
+      "form": {
+        "name": "Name",
+        "description": "Description",
+        "quantity": "Quantity",
+        "netPrice": "Net Price",
+        "discount": "Discount",
+        "taxPercentage": "Tax %",
+        "grossPrice": "Gross Price",
+        "nameRequired": "Name is required",
+        "descriptionRequired": "Description is required",
+        "quantityRequired": "Quantity must be at least 1",
+        "netPriceRequired": "Net price is required and must be positive",
+        "taxPercentageRequired": "Tax percentage is required and must be positive",
+        "additionalInformation": "Additional Information",
+        "noAdditionalInformation": "No additional information",
+        "additionalInformationPlaceholder": "Enter additional information",
+        "selectVatDescription": "Select VAT Description",
+        "selectVatDescriptionPlaceholder": "Choose from existing VAT descriptions",
+        "noVatDescriptions": "No VAT descriptions available",
+        "client": "Client",
+        "searchClient": "Search for a client...",
+        "clientRequired": "Client is required",
+        "addNewClient": "Add New Client",
+        "paymentDueDate": "Payment Due Date",
+        "paymentDueDateRequired": "Payment due date is required",
+        "currency": "Currency",
+        "status": "Status"
+      },
+      "addNewProduct": "Add new product",
+      "noName": "No name",
+      "statusChangeSuccess": "Invoice status updated successfully",
+      "invoiceCreated": "Invoice created successfully",
+      "invoiceUpdated": "Invoice updated successfully",
+      "errorCreatingInvoice": "Error creating invoice",
+      "errorUpdatingInvoice": "Error updating invoice",
+      "formValidationError": "Please fill in all required fields correctly",
+      "addProductFirst": "Please add at least one product with a valid name and price",
+      "summary": {
+        "netBase": "Net Base",
+        "totalDiscount": "Total Discount",
+        "taxBreakdown": "VAT",
+        "totalVat": "Total VAT",
+        "total": "Total"
+      }
+    },
+    "status": {
+      "updated": "Invoice status updated successfully",
+      "updateError": "Failed to update invoice status"
+    },
+    "list": {
+      "totalPriceAfterTax": "Total Price After Tax",
+      "totalPriceBeforeTax": "Total Price Before Tax",
+      "status": "Status",
+      "budget": "Budget",
+      "actionsMenu": "Actions menu",
+      "invoiceNumber": "Invoice Number",
+      "currency": "Currency",
+      "paymentDueDate": "Payment Due Date",
+      "description": "Description",
+      "discount": "Discount",
+      "taxValue": "Tax Value"
+    },
+    "noDataTitle": "No Invoices Found",
+    "noDataDescription": "You haven't created any invoices yet. Start by adding your first invoice to get started.",
+    "addNewInvoice": "Add Invoice"
+  },
+  "common": {
+    "close": "Close",
+    "selectOption": "Select an option",
+    "loading": "Loading...",
+    "delete": "Delete",
+    "back": "Back",
+    "edit": "Edit",
+    "download": "Download"
+  },
+  "status": {
+    "load": {
+      "ASSIGNED": "Assigned",
+      "FINISHED": "Finished",
+      "IN_PROGRESS": "In Progress",
+      "TEMPLATE": "Template",
+      "UNASSIGNED": "Unassigned"
+    },
+    "invoice": {
+      "CANCELED": "Canceled",
+      "DRAFT": "Draft",
+      "OVERDUE": "Overdue",
+      "PAID": "Paid",
+      "PENDING": "Pending",
+      "UNPAID": "Unpaid",
+      "PARTIALLY_PAID": "Partially Paid"
+    }
+  },
+  "COMPANY_SETTINGS": {
+    "TITLE": "Company Settings",
+    "SUBTITLE": "Manage your company information and preferences",
+    "NO_COMPANY_FOUND": "No company found",
+    "ERROR_LOADING_COMPANIES": "Error loading companies",
+    "ERROR_LOADING_COMPANY": "Error loading company details",
+    "SUCCESS_UPDATE": "Company information updated successfully",
+    "ERROR_UPDATE": "Error updating company information",
+    "COMPANY_NOT_REGISTERED": "Company registration required",
+    "COMPANY_REGISTRATION_REQUIRED": "Please complete your company registration before accessing other features",
+    "FORM": {
+      "INVOICE_SETTINGS_TITLE": "Invoice Settings",
+      "NAME": {
+        "LABEL": "Company Name",
+        "PLACEHOLDER": "Enter company name",
+        "VALIDATION_MESSAGE": "Company name is required"
+      },
+      "OIB": {
+        "LABEL": "OIB",
+        "PLACEHOLDER": "Enter OIB number",
+        "VALIDATION_MESSAGE": "OIB is required"
+      },
+      "ADDRESS": {
+        "GEOLOCATION": {
+          "LATITUDE": {
+            "LABEL": "Latitude",
+            "PLACEHOLDER": "Enter latitude"
+          },
+          "LONGITUDE": {
+            "LABEL": "Longitude",
+            "PLACEHOLDER": "Enter longitude"
+          }
+        },
+        "STREET": {
+          "LABEL": "Street",
+          "PLACEHOLDER": "Enter street name",
+          "VALIDATION_MESSAGE": "Street is required"
+        },
+        "HOUSE_NUMBER": {
+          "LABEL": "House Number",
+          "PLACEHOLDER": "Enter house number",
+          "VALIDATION_MESSAGE": "House number is required"
+        },
+        "POSTAL_CODE": {
+          "LABEL": "Postal Code",
+          "PLACEHOLDER": "Enter postal code",
+          "VALIDATION_MESSAGE": "Postal code is required"
+        },
+        "CITY": {
+          "LABEL": "City",
+          "PLACEHOLDER": "Enter city",
+          "VALIDATION_MESSAGE": "City is required"
+        },
+        "COUNTRY": {
+          "LABEL": "Country",
+          "PLACEHOLDER": "Select country",
+          "VALIDATION_MESSAGE": "Country is required"
+        }
+      },
+      "INVOICE_SETTINGS": {
+        "VAT_PERCENTAGE": {
+          "LABEL": "VAT Percentage",
+          "PLACEHOLDER": "Enter VAT percentage",
+          "VALIDATION_MESSAGE": "VAT percentage is required"
+        },
+        "INVOICE_NUMBER_SEPARATOR": {
+          "LABEL": "Invoice Number Separator",
+          "PLACEHOLDER": "Select separator",
+          "VALIDATION_MESSAGE": "Invoice number separator is required",
+          "OPTIONS": {
+            "DASH": "Minus (-)",
+            "DOT": "Period (.)",
+            "SLASH": "Slash (/)"
+          }
+        },
+        "VAT_DESCRIPTION": {
+          "LABEL": "VAT Description",
+          "ITEM_LABEL": "Description",
+          "PLACEHOLDER": "Enter VAT description",
+          "VALIDATION_MESSAGE": "VAT description is required",
+          "ADD_BUTTON": "Add VAT Description",
+          "REMOVE_BUTTON": "Remove VAT Description",
+          "EMPTY_STATE": "No VAT descriptions added yet. Click the + button to add one.",
+          "TITLE": "VAT Description"
+        },
+        "REPEAT_SECTION": {
+          "ITEM_TITLE": "Item",
+          "REMOVE_BUTTON": "Remove",
+          "EMPTY_STATE": "No items added yet. Click the + button to add one."
+        }
+      }
+    }
+  },
+  "table": {
+    "searchTable": "Search table...",
+    "columns": "Columns",
+    "selectDefaults": "Defaults",
+    "selectAll": "Select All",
+    "columnsSelected": "columns selected",
+    "actions": "Actions",
+    "actionEdit": "Edit",
+    "actionDelete": "Delete",
+    "actionCopy": "Copy",
+    "add": "Add",
+    "truck": "Truck",
+    "trailer": "Trailer"
+  },
+  "USER_SETTINGS": {
+    "TITLE": "User Settings",
+    "SUBTITLE": "Complete your employee profile setup",
+    "EMPLOYEE_NOT_SETUP": "Employee profile setup required",
+    "EMPLOYEE_SETUP_REQUIRED": "Please complete your employee profile setup before accessing other features",
+    "SUCCESS_CREATE": "Employee profile created successfully",
+    "ERROR_CREATE": "Error creating employee profile",
+    "FORM": {
+      "FIRST_NAME": {
+        "LABEL": "First Name",
+        "PLACEHOLDER": "Enter first name",
+        "VALIDATION_MESSAGE": "First name is required"
+      },
+      "LAST_NAME": {
+        "LABEL": "Last Name",
+        "PLACEHOLDER": "Enter last name",
+        "VALIDATION_MESSAGE": "Last name is required"
+      },
+      "OIB": {
+        "LABEL": "OIB",
+        "PLACEHOLDER": "Enter OIB number",
+        "VALIDATION_MESSAGE": "OIB is required"
+      },
+      "PHONE_NUMBER": {
+        "LABEL": "Phone Number",
+        "PLACEHOLDER": "Enter phone number",
+        "VALIDATION_MESSAGE": "Phone number is required"
+      },
+      "TYPE": {
+        "LABEL": "Employee Type",
+        "PLACEHOLDER": "Select employee type",
+        "VALIDATION_MESSAGE": "Employee type is required",
+        "OPTIONS": {
+          "OWNER": "Owner",
+          "DRIVER": "Driver",
+          "ACCOUNTANT": "Accountant"
+        }
+      },
+
+      "CREATE_USER": {
+        "LABEL": "Create user account for this employee"
+      },
+      "COMPANY_CARDS": {
+        "LABEL": "Company Cards",
+        "ADD_BUTTON": "Add Company Card",
+        "ITEM_TITLE": "Company Card",
+        "REMOVE_BUTTON": "Remove Company Card",
+        "EMPTY_STATE": "No company cards added yet. Click the + button to add one.",
+        "NAME": {
+          "LABEL": "Card Name",
+          "PLACEHOLDER": "e.g., Ina gorivo",
+          "VALIDATION_MESSAGE": "Card name is required"
+        },
+        "NUMBER": {
+          "LABEL": "Card Number",
+          "PLACEHOLDER": "e.g., 12345678"
+        }
+      },
+      "SUBMIT_BUTTON": "Save Employee Profile"
+    }
+  },
+  "routeTooltip": {
+    "routeDetails": "Route Details",
+    "stops": "Stops",
+    "loading": "Loading",
+    "unloading": "Unloading",
+    "order": "Order",
+    "driverMessage": "Driver Message",
+    "price": "Price"
+  }
+}

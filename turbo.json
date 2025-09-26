@@ -1,0 +1,84 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalEnv": ["NODE_ENV", "APP_VERSION"],
+  "tasks": {
+    "dev": {
+      "cache": false
+    },
+    "build:package:development": {
+      "dependsOn": ["^build:package:development"]
+    },
+    "build:package:production": {
+      "dependsOn": ["^build:package:production"]
+    },
+    "build:packages:development": {
+      "dependsOn": ["^build:package:development"],
+      "outputs": ["dist/**"]
+    },
+    "build:packages:production": {
+      "dependsOn": ["^build:package:production"],
+      "outputs": ["dist/**"]
+    },
+    "@smart-fleet-management/frontend#build": {
+      "dependsOn": ["build:packages:development"],
+      "outputs": ["dist/frontend/**"]
+    },
+    "@smart-fleet-management/backend#build": {
+      "dependsOn": ["build:packages:production"],
+      "env": [
+        "DB_SYNC",
+        "DB_URL",
+        "PORT",
+        "JWT_SECRET",
+        "JWT_REFRESH_SECRET",
+        "JWT_ACCESS_TOKEN_EXPIRE",
+        "JWT_REFRESH_TOKEN_EXPIRE",
+        "CROATIAN_COURT_REGISTRAT_CLIENT_ID",
+        "CROATIAN_COURT_REGISTRAT_CLIENT_SECRET",
+        "./apps/backend/.env.local"
+      ],
+      "inputs": ["./apps/backend/.env.local", "./apps/backend/.env"],
+      "outputs": ["dist/**"]
+    },
+    "@smart-fleet-management/backend#dev": {
+      "dependsOn": ["build:packages:development"],
+      "env": [
+        "DB_SYNC",
+        "DB_URL",
+        "PORT",
+        "JWT_SECRET",
+        "JWT_REFRESH_SECRET",
+        "JWT_ACCESS_TOKEN_EXPIRE",
+        "JWT_REFRESH_TOKEN_EXPIRE",
+        "THROTTLE_TTL",
+        "THROTTLE_LIMIT",
+        "CROATIAN_COURT_REGISTRAT_CLIENT_ID",
+        "CROATIAN_COURT_REGISTRAT_CLIENT_SECRET"
+      ],
+      "persistent": true
+    },
+    "@smart-fleet-management/frontend#dev": {
+      "dependsOn": ["build:packages:development"],
+      "inputs": [".env.local", ".env"],
+      "persistent": true
+    },
+    "build": {
+      "dependsOn": ["^build"]
+    },
+    "lint": {
+      "env": [
+        "DATABASE_HOST",
+        "DATABASE_PORT",
+        "DATABASE_USERNAME",
+        "DATABASE_PASSWORD",
+        "DATABASE_NAME",
+        "DB_SYNC",
+        "DB_URL",
+        "PORT",
+        "CROATIAN_COURT_REGISTRAT_CLIENT_ID",
+        "CROATIAN_COURT_REGISTRAT_CLIENT_SECRET"
+      ],
+      "cache": false
+    }
+  }
+}

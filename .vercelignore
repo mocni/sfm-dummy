@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs (we want to keep the frontend build)
+apps/backend/dist
+packages/*/dist
+
+# Development files
+.env.local
+.env.development
+.env.test
+
+# Cache and temporary files
+.turbo
+.angular
+.cache
+*.log
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db 
